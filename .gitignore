@@ -1,2 +1,5 @@
 # Ignore build
-build
+build/**/*
+
+# Exception for config header
+!build/MainConfig.h
